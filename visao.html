@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Visão Geral</title>
+  <link rel="stylesheet" href="style/main.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Visão Geral Financeira</h2>
+    <div id="resumoTexto">
+      <p><strong>Entradas:</strong> R$ <span id="totalEntradas">0.00</span></p>
+      <p><strong>Gastos:</strong> R$ <span id="totalGastos">0.00</span></p>
+      <p><strong>Fixas:</strong> R$ <span id="totalFixas">0.00</span></p>
+      <p><strong>Saldo:</strong> R$ <span id="saldoFinal">0.00</span></p>
+    </div>
+    <canvas id="graficoResumo" width="400" height="300"></canvas>
+  </div>
+  <script type="module" src="js/visao.js"></script>
+</body>
+</html>
