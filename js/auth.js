@@ -2,12 +2,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/fireba
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, sendPasswordResetEmail } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "SEU_DOMINIO.firebaseapp.com",
-  projectId: "SEU_PROJETO_ID",
-  storageBucket: "SEU_BUCKET.appspot.com",
-  messagingSenderId: "SEU_SENDER_ID",
-  appId: "SEU_APP_ID"
+  apiKey: "AIzaSyBD21CdmT5YukoHzwB3Zm2zbwHuKdoOlYY",
+  authDomain: "financeiropereiralepore.firebaseapp.com",
+  databaseURL: "https://financeiropereiralepore-default-rtdb.firebaseio.com",
+  projectId: "financeiropereiralepore",
+  storageBucket: "financeiropereiralepore.appspot.com",
+  messagingSenderId: "601293313257",
+  appId: "1:601293313257:web:default" // (se não tiver appId exato, pode deixar assim por enquanto)
 };
 
 const app = initializeApp(firebaseConfig);
