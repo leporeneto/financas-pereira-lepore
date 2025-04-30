@@ -1,0 +1,1 @@
+// lógica para listar histórico de entradas/gastos/fixas

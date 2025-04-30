@@ -1,0 +1,1 @@
+// lógica para salvar entrada no Firebase
