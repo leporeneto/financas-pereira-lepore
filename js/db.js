@@ -9,7 +9,7 @@ const firebaseConfig = {
   projectId: "financeiropereiralepore",
   storageBucket: "financeiropereiralepore.appspot.com",
   messagingSenderId: "601293313257",
-  appId: "1:601293313257:web:default"
+  appId: "1:601293313257:web:b142eb751b4acb635ecc78"
 };
 
 const app = initializeApp(firebaseConfig);
